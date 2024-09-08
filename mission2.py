@@ -32,7 +32,7 @@ def darken_image(img, darken_factor=0.5):
     return darkened_img
 
 # 이미지 불러오기
-image = cv2.imread("misson/03.png")
+image = cv2.imread("03.png")
 
 # 어둡게 하는 함수 불러오기
 darkened_image = darken_image(image, darken_factor=0.3)  # 0<darken_factor<1 1에 가까울 수록 더 어둡게 

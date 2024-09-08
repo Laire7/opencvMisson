@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
-image = cv2.imread("misson/01.png")
+image = cv2.imread("01.png")
 # IMREAD_UNCHANGED는 png 이미지의 alpha 체널 (투명도) 정보를 포함해서 가지고 온다
-src = cv2.imread('misson/01.png', cv2.IMREAD_UNCHANGED) 
-org = cv2.imread('misson/01.png', cv2.IMREAD_UNCHANGED)
+src = cv2.imread('01.png', cv2.IMREAD_UNCHANGED) 
+org = cv2.imread('01.png', cv2.IMREAD_UNCHANGED)
 
 # BGR->HSV
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)

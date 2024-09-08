@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread('misson/05.png')
+image = cv2.imread('05.png')
 
 #ConvertScaleAbs 이미지 필터 적용
 # 대비효과를 극대화 보다 낯추려고 하는 것 처럼 보이는데 
