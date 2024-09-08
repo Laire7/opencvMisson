@@ -8,11 +8,11 @@ opencv 이미지 필터 AI 수강 미션
 ### <code>cv2.filter2D (sharpen kernel)</code> 
 주변 픽셀과 값을 극대화 해서 이미지 선명도를 높임
 ![01](https://github.com/user-attachments/assets/3c136e0b-96ef-4d9b-b2d9-ba9d5b7acb13)
-#### 1. (Denoise) 원본에 Denoise 효과 적용
+#### 1. (Denoise) 원본 이미지에 Denoise 효과 적용
 ![misson1_1denoise](https://github.com/user-attachments/assets/a0e52c78-14fb-4a04-a403-0a921ce2cf68)
 #### 2. (Denoise with Mask) 마스크를 씌워 어두운 곳에만 denoise 효과 적용
 ![misson1_2denoise+mask](https://github.com/user-attachments/assets/a810225f-ac2f-48ad-aa58-c19589ba5343)
-#### 3. (Denoise with Mask, then sharpen) 마자막으로 이미지의 선명도 높인 후
+#### 3. (Denoise with Mask, then sharpen) 마자막으로 이미지의 선명도 높여 출력한다
 ![misson1_so](https://github.com/user-attachments/assets/3ca280fa-0032-41d8-936d-7b66092c7747)
 
 # 미션2: 밝기 조절
